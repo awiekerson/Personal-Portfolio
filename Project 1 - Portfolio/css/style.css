@@ -188,27 +188,37 @@ section#skillset .skills {
     margin: auto;
 }
 
-section.information article h3 {
+section.experience-degree-information article h3 {
     color: var(--grey);
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-section.information article p {
+section.experience-degree-information article p {
    margin: 0px;
 }
 
-section.information article  {
+section.experience-degree-information article  {
     border-bottom: 1px solid #D9D9D9 ;
     padding: 30px 0px;
  }
 
- section.information article:last-of-type  {
+ section.experience-degree-information article:last-of-type  {
     border-bottom: none;
     padding-bottom: 0px;
  }
 
-section.information article:first-of-type {
+section.experience-degree-information article:first-of-type {
     padding-top: 0px;
+ }
+
+ h3.degree-title {
+    color: var(--grey);
+    font-size: 22px;
+    margin: 0px;
+ }
+
+ div#degree {
+    padding-bottom: 22px;
  }
