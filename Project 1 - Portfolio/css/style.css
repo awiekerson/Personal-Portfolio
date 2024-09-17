@@ -53,6 +53,18 @@ body {
     border: none;
 }
 
+/* Video-file Section
+video {
+    max-width: 90%;
+    height: auto;
+} */
+
+/* iframe {
+    max-width: 90%;
+}  */
+
+
+
 section {
     padding: 40px 0px;
 }
@@ -221,4 +233,30 @@ section.experience-degree-information article:first-of-type {
 
  div#degree {
     padding-bottom: 22px;
+ }
+
+ section#contact {
+    background-color: var(--light-grey);
+ }
+
+ section#contact a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+ }
+
+ section#contact a img {
+    vertical-align: middle;
+    margin-right: 12px;
+ }
+
+ footer {
+    background-color: var(--light-grey);
+    font-size: 16px;
+ }
+
+ footer .container {
+    padding: 24px 0px;;
+    border-top: 1px solid black;
  }
