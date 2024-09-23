@@ -238,33 +238,55 @@ section#skillset .skills {
     margin: auto;
 }
 
-section.experience-degree-information article h3 {
-    color: var(--grey);
+ #experience .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: var(--purple);
+    max-width: 100%;
+    border-top: 1px solid black;
+}
+
+#experience .work-experience {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+
+section.experience-degree-information details summary {
+    color: black;
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
-section.experience-degree-information article p {
+section.experience-degree-information details p {
    margin: 0px;
 }
 
-section.experience-degree-information article  {
-    border-bottom: 1px solid #D9D9D9 ;
-    padding: 30px 0px;
+section.experience-degree-information details h3  {
+    margin: 0;
+    margin-bottom: 10px;
  }
 
- section.experience-degree-information article:last-of-type  {
+section.experience-degree-information details  {
+    border-bottom: 1px solid var(--grey) ;
+    padding: 15px 0px;
+}
+
+ section.experience-degree-information details:last-of-type  {
     border-bottom: none;
     padding-bottom: 0px;
  }
 
-section.experience-degree-information article:first-of-type {
+section.experience-degree-information details:first-of-type {
     padding-top: 0px;
  }
 
  h3.degree-title {
-    color: var(--grey);
+    color: black;
     font-size: 22px;
     margin: 0px;
  }
@@ -274,7 +296,7 @@ section.experience-degree-information article:first-of-type {
  }
 
  section#contact {
-    background-color: var(--light-grey);
+    background-color: #e7e3de;
  }
 
  section#contact a {
@@ -290,7 +312,7 @@ section.experience-degree-information article:first-of-type {
  }
 
  footer {
-    background-color: var(--light-grey);
+    background-color: #e7e3de;
     font-size: 16px;
  }
 
