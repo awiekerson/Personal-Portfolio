@@ -4,45 +4,96 @@
     --lighter-blue: #424579;
     --light-grey: #EFEFEF;
     --grey: #5C5C5C;
+    --fontColor: #1E2130;
+    --pink: #EDB7B3;
+    --purple: #c6c2cd;
+    --plainBackground: #ece9e5;
 }
 
 body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Gowun Batang", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: var(--plainBackground);
 
 }
 
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
+  }
+  
+  .gowun-batang-bold {
+    font-family: "Gowun Batang", serif;
     font-weight: 700;
     font-style: normal;
-}
+  }
+  
+
 .container {
     /* border: 2px solid yellow; */
     max-width: 940px;
     margin: auto;
 }
 
-.blue-bg {
-    background-color: #424579;
-    color: white;
+
+header {
+    height: 60px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.1);
 }
 
-.gradient-bg {
-    background-image: linear-gradient(var(--lighter-blue), var(--dark-blue));
-    color: white;
+.container {
+    max-width: 90%;
+    width: 1440px;
+    margin: auto;
 }
 
+.header-background b {
+    color: black;
+
+}
+
+.header-background nav ul li a {
+    color: var(--fontColor);
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* Align-items may not do anything at first -- need to adjust height of container to 100% */
+    height: 100%;
+}
+
+
+.button {
+    background-color: var(--pink);
+    padding: 4px 2px;
+    border-radius: 50px;
+}
+
+.hero-background {
+    background-color: var(--purple);
+}
 
 .section-title {
     font-size: 38px;
@@ -53,68 +104,50 @@ body {
     border: none;
 }
 
-/* Video-file Section
-video {
-    max-width: 90%;
-    height: auto;
-} */
-
-/* iframe {
-    max-width: 90%;
-}  */
-
-
-
 section {
     padding: 40px 0px;
-}
-
-
-
-hr {
-    width: 70px;
-    height: 8px;
-    background-color: var(--main-blue);
-    margin: 16px auto 32px auto;
 }
 
 section p {
     font-size: 20px;
     line-height: 32px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Gowun Batang", serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--grey);
+    color: var(--fontColor);
 }
 
-/*.button {
-    background-color: #4980ff;
-    padding: 8px 4px;
-    border-radius: 6px;
-} */
+
+#hero .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    /* Align-items may not do anything at first -- need to adjust height of container to 100% */
+    height: 100%;
+}
+
+#hero {
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.1);
+
+}
 
 section#hero h1{
-    font-size: 72px;
+    font-size: 70px;
     font-weight: bold;
     margin-top: 15px;
-    margin-bottom: 0px;
-    letter-spacing: -2px;
-}
-
-section#hero h2{
-    font-size: 20px;
-    font-weight: normal;
-    color: #2980FF;
     margin-bottom: 20px;
-    letter-spacing: 3px;
-
+    letter-spacing: -2px;
+    color: var(--fontColor);
 }
 
 section#hero p{
+    font-size: 19px;
     max-width: 465px;
     margin: auto;
+    padding: 0 100px;
     margin-bottom: 20px;
-    color: white;
+    color: var(--fontColor);
     
 }
 
@@ -124,7 +157,6 @@ header {
     padding-bottom: 10px;
     padding-top: 20px;
 }
-
 
 
 ul {
@@ -143,11 +175,8 @@ header a {
 }
 
 section img#profile_image {
-    border-radius: 350px;
-    width: 263px;
-    border: 2px solid white;
-    filter: drop-shadow(rgba(0, 0, 0, 0.5) 1px 1px 10px);
-
+    border-radius: 50px;
+    width: 400px;
 
 }
 
@@ -171,8 +200,16 @@ section#hero li img {
 }
 
 section#hero ul {
-   padding-right: 65px;
+   padding-right: 45px;
    
+}
+
+hr {
+    width: 70px;
+    height: 8px;
+    background-color: var(--pink);
+    margin: 16px auto 32px auto;
+    border: none;
 }
 
 section#skillset span {
