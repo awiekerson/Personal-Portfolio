@@ -108,7 +108,7 @@ section {
     padding: 40px 0px;
 }
 
-section p {
+#hero p {
     font-size: 20px;
     line-height: 32px;
     font-family: "Gowun Batang", serif;
@@ -132,17 +132,19 @@ section p {
 
 }
 
+
+
 section#hero h1{
     font-size: 70px;
     font-weight: bold;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     letter-spacing: -2px;
     color: var(--fontColor);
 }
 
 section#hero p{
-    font-size: 19px;
+    font-size: 23px;
     max-width: 465px;
     margin: auto;
     padding: 0 100px;
@@ -182,7 +184,20 @@ section img#profile_image {
 
 section#hero a {
     text-decoration: none;
+    color: black;
 }
+
+section#hero .explore-projects a {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: var(--pink);
+    padding: 10px 50px;
+}
+
+section#hero ul {
+    margin: 30px 0px;
+}
+
 
 section#hero {
     padding-top: 13px;
@@ -196,8 +211,8 @@ section#hero li {
 
 section#hero li img {
    width: 37px;
-   
 }
+
 
 section#hero ul {
    padding-right: 45px;
@@ -254,7 +269,35 @@ section#skillset .skills {
 }
 
 
-section.experience-degree-information details summary {
+section.experience-degree-information article h3 {
+    color: black;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+section.experience-degree-information article p {
+   margin: 0px;
+   font-size: 18px;
+}
+
+section.experience-degree-information article  {
+    border-bottom: 1px solid var(--grey) ;
+    padding: 15px 0px;
+}
+
+ section.experience-degree-information article:last-of-type  {
+    border-bottom: none;
+    padding-bottom: 0px;
+ }
+
+section.experience-degree-information article:first-of-type {
+    padding-top: 0px;
+ }
+
+
+ section.experience-degree-information details summary {
     color: black;
     font-size: 20px;
     margin-top: 0px;
@@ -264,12 +307,8 @@ section.experience-degree-information details summary {
 
 section.experience-degree-information details p {
    margin: 0px;
+   font-size: 18px;
 }
-
-section.experience-degree-information details h3  {
-    margin: 0;
-    margin-bottom: 10px;
- }
 
 section.experience-degree-information details  {
     border-bottom: 1px solid var(--grey) ;
