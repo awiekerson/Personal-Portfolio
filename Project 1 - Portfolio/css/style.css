@@ -133,7 +133,6 @@ section {
 }
 
 
-
 section#hero h1{
     font-size: 70px;
     font-weight: bold;
@@ -229,15 +228,15 @@ hr {
 
 section#skillset span {
     background-color: var(--light-grey);
-    width: 146px;
-    height: 40px;
+    width: 160px;
+    height: 50px;
     border-radius: 72px;
-    margin: 10px;
+    margin: 15px;
     display: inline-block;
     /* inline-block respects the height and width that we chose */
-    line-height: 40px; 
+    line-height: 50px; 
     /* Eventually replace this line with flex-box and only works with small text*/
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: -1px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
     transition: transform ease .5s, box-shadow ease .5s;
@@ -249,7 +248,7 @@ section#skillset span:hover {
 }
 
 section#skillset .skills {
-    max-width: 525px;
+    max-width: 650px;
     margin: auto;
 }
 
